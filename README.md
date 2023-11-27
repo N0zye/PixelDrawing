@@ -48,4 +48,4 @@ int main()
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as needed.
+This project is licensed under the [MIT License](LICENSE.txt). Feel free to use and modify the code as needed.
