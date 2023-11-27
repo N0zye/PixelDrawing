@@ -1,6 +1,6 @@
 # Squid Drawing Game
 
-This repository contains a C++ program that utilizes the OpenCV library to draw a squid shape based on an input shape provided. The `Squid` class is designed to read an image file from the "assets" folder and render the corresponding shape in the console.
+This repository contains a C++ program that utilizes the OpenCV library to draw a shape based on an input shape provided. The `Squid` class is designed to read an image file from the "assets" folder and render the corresponding shape in the console.
 
 ## Requirements
 - C++ compiler
@@ -14,25 +14,18 @@ This repository contains a C++ program that utilizes the OpenCV library to draw 
    cd squid-drawing-game
    ```
 
-2. Compile the program:
-   ```bash
-   g++ -o squid_game squid_game.cpp `pkg-config opencv --cflags --libs`
-   ```
 
-3. Run the executable:
-   ```bash
-   ./squid_game
-   ```
 
 ## Custom Shapes
 
+This demo comes with only one image but you can add as many as you wish, in the `assets` folder. Keep in mind that the name of the .png file determines argument of the `disegna` metohd.
 To draw a custom shape, modify the `game.disegna("cerchio");` line in the `main` function by replacing "cerchio" with the desired shape filename (without the extension). Ensure that the corresponding image file is available in the "assets" folder.
 
-Feel free to experiment with different shapes and share your creations!
+Feel free to experiment with different shapes!
 
 ## Example
 
-The provided source code demonstrates how to draw a squid shape by default. You can customize the shape by changing the parameter in the `game.disegna()` function.
+The provided source code demonstrates how to draw a squid shape by default. 
 
 ```cpp
 int main()
@@ -40,6 +33,7 @@ int main()
     Squid game;
 
     // Draw a custom shape (e.g., "triangolo")
+    // A "triangolo.png" needs to exist in the assets folder
     game.disegna("triangolo");
 
     return 0;
