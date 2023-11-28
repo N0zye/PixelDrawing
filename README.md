@@ -1,6 +1,6 @@
-# Squid Drawing Game
+# Pixel Drawing in Console
 
-This repository contains a C++ program that utilizes the OpenCV library to draw a shape based on an input shape provided. The `Squid` class is designed to read an image file from the "assets" folder and render the corresponding shape in the console.
+This repository contains a C++ program that utilizes the OpenCV library to draw an image based on an input image provided. The `draw` function is designed to read an image file from the "assets" folder and render the corresponding shape in the console.
 
 ## Requirements
 - C++ compiler
@@ -9,11 +9,11 @@ This repository contains a C++ program that utilizes the OpenCV library to draw 
 ## How to Use
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/squid-drawing-game.git
-   cd squid-drawing-game
-   ```
-
+```bash
+git clone https://github.com/N0zye/SquidGame.git
+cd SquidGame
+```
+2. Compile
 
 
 ## Custom Shapes
