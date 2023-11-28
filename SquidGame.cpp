@@ -18,7 +18,7 @@ public:
                     std::cout << ' ';                
                 }
                 else {
-                    printColor(pixel[0], pixel[1], pixel[2]);
+                    printColor(pixel[2], pixel[1], pixel[0]);
                 }
             }
             std::cout << std::endl;
