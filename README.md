@@ -1,6 +1,5 @@
 [![Release](https://img.shields.io/github/v/release/N0zye/PixelDrawing)](https://github.com/N0zye/PixelDrawing/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
-[<img src="https://opensource.org/files/OSIApproved.png" height="20">](https://opensource.org/licenses/MIT)
 
 # Pixel Drawing in Console
 
