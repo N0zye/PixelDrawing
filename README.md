@@ -3,14 +3,14 @@
 
 This repository contains a C++ program that utilizes the OpenCV library to draw an image based on an input image provided. The `draw` function is designed to read an image file from the "assets" folder and render the corresponding content in the console.
 
-## Precompiled version: [latest](https://github.com/N0zye/PixelDrawing/releases/latest)  only for windows(x64).
+## Precompiled Version: [latest](https://github.com/N0zye/PixelDrawing/releases/latest)  only for windows(x64).
 alternatively you can dowload the source and compile it yourself,
 
-## Requirements to compile
+## Requirements to Compile
 - C++ compiler
 - OpenCV library
 
-## How to Use
+## How to Compile
 
 1. Clone the repository:
 ```bash
