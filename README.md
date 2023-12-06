@@ -1,3 +1,4 @@
+[![Release](https://img.shields.io/github/v/release/N0zye/PixelDrawing)](https://github.com/N0zye/PixelDrawing/releases/latest)
 # Pixel Drawing in Console
 
 This repository contains a C++ program that utilizes the OpenCV library to draw an image based on an input image provided. The `draw` function is designed to read an image file from the "assets" folder and render the corresponding content in the console.
@@ -6,7 +7,7 @@ This repository contains a C++ program that utilizes the OpenCV library to draw 
 - C++ compiler
 - OpenCV library
 
-### Alternatively you can dowload the precompiled version [![Release](https://img.shields.io/github/v/release/N0zye/PixelDrawing)](https://github.com/N0zye/PixelDrawing/releases/latest)
+### Alternatively you can dowload the precompiled version [![Release]](https://github.com/N0zye/PixelDrawing/releases/latest)
 
 ## How to Use
 
