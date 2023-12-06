@@ -1,6 +1,6 @@
 # Pixel Drawing in Console
 
-This repository contains a C++ program that utilizes the OpenCV library to draw an image based on an input image provided. The `draw` function is designed to read an image file from the "assets" folder and render the corresponding shape in the console.
+This repository contains a C++ program that utilizes the OpenCV library to draw an image based on an input image provided. The `draw` function is designed to read an image file from the "assets" folder and render the corresponding content in the console.
 
 ## Requirements
 - C++ compiler
@@ -14,27 +14,25 @@ git clone https://github.com/N0zye/SquidGame.git
 cd SquidGame
 ```
 2. Compile
+Compile it howhever you want.
 
 
 ## Custom Shapes
 
-This demo comes with only one image but you can add as many as you wish, in the `assets` folder. Keep in mind that the name of the .png file determines argument of the `disegna` metohd.
-To draw a custom shape, modify the `game.disegna("cerchio");` line in the `main` function by replacing "cerchio" with the desired shape filename (without the extension). Ensure that the corresponding image file is available in the "assets" folder.
+This demo comes with only one image but you can add as many as you wish, in the `assets` folder. Keep in mind that the name of the .png file determines argument of the `draw` function.
+To draw a custom shape, modify the `draw("test");` line in `main` by replacing "test" with the desired image filename (without the extension). Ensure that the corresponding png file exists in the "assets" folder.
 
-Feel free to experiment with different shapes!
+Feel free to experiment with different images!
 
 ## Example
 
-The provided source code demonstrates how to draw a squid shape by default. 
+The provided source code demonstrates how to draw an image. 
 
 ```cpp
 int main()
 {
-    Squid game;
-
-    // Draw a custom shape (e.g., "triangolo")
-    // A "triangolo.png" needs to exist in the assets folder
-    game.disegna("triangolo");
+    // A "test.png" needs to exist in the assets folder
+    game.disegna("test");
 
     return 0;
 }
